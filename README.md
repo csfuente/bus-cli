@@ -1,20 +1,29 @@
 # destacamebus-client
 
-## Build Setup
+## Instalar Nodejs
 
+La principal dependencia del proyecto es nodejs el cual nos permite ejecutar los comandos npm para realizar las compilaciones.
+La instalación de nodejs se puede realizar siguiente las instrucciones según el sistema operativo utilizado https://nodejs.org/es/
+
+También debe estar corriendo bajo el mismo localhost el proyecto https://github.com/csfuente/bus-api en el puerto 8000.
+
+Con nodejs instalado podemos proseguir
+
+## Clonar Repositorio
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+$ git clone https://github.com/csfuente/bus-cli
+$ cd bus-cli
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Instalar dependencias
+
+```bash
+$ npm install
+```
+
+## Correr ambiente de desarrollo
+
+```bash
+$ npm run dev
+```
+Con esto podemos probar nuestra aplicación en localhost:3000
